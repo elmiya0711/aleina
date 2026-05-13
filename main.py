@@ -5,9 +5,7 @@ from random_user_agent.params import SoftwareName, OperatingSystem
 import threading
 from colorama import Fore, init
 
-‎init(autoreset=True)
-inf=1000000000000
-
+‎inf=1000000000000
 def banner():
 ‎ print(Fore.CYAN + r''''
 ‎
