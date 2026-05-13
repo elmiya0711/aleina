@@ -17,6 +17,8 @@ def banner():
 ...........................................................
 ''')
 
+banner()
+
 sn = [SoftwareName.CHROME.value]
 os = [OperatingSystem.WINDOWS.value, OperatingSystem.LINUX.value]
 rotator = UserAgent(software_names=sn, operating_systems=os, limit=10000)
